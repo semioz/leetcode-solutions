@@ -1,6 +1,5 @@
-import math
-class Solution:
-    def subtractProductAndSum(self, n: int) -> int:
-        multiple = math.prod(map(int,str(n)))
-        sum_ = sum(map(int,str(n)))
-        return multiple - sum_
+import numpy
+class Solution(object):
+    def subtractProductAndSum(self, n):
+        new = map(int, str(n))
+        return  numpy.prod(new) - sum(new)
