@@ -1,0 +1,1 @@
+let isAnagram = function(s, t) {};
