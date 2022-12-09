@@ -2,19 +2,14 @@
 
 class DataStructure {
     constructor() {
-        //list to store the elements in order
         this.elements = [];
-        //map to support efficient element look-up and removal
         this.elementMap = new Map();
     }
     add(element) {
-        //add the element to the end of list
         this.elements.push(element);
-        //store the index of the element in the map
         this.elementMap.set(element, this.elements.length - 1);
     }
     remove(element) {
-        //get the index of the element
         let indexOfElement = this.elementMap.get(element);
         //remove the element from map
         this.elementMap.delete(element);
@@ -32,7 +27,6 @@ class DataStructure {
         return this.elements[this.elements.length - 1];
     }
     getRandom() {
-        //get a random index between 0 and the length of list
         let index = Math.floor(Math.random() * this.elements.length);
         return this.elements[index];
     }
