@@ -32,19 +32,4 @@ class DataStructure {
     }
 }
 
-const ds = new DataStructure();
-//Add Items
-ds.add(1)
-ds.add(2)
-ds.add(3)
-ds.add(4)
-
-//Get The Last Inserted Element
-const lastInserted = ds.getLastInserted();
-console.log(lastInserted)
-    //Get A Random Number
-const randomNum = ds.getRandom();
-console.log(randomNum);
-//Remove Element From List and Map
-ds.remove(2);
-console.log(ds)
+export default DataStructure;

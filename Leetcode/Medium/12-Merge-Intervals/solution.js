@@ -1,0 +1,1 @@
+let merge = function(intervals) {};

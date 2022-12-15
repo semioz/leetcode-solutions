@@ -4,7 +4,7 @@
     "description": "Coding questions from various resources in order to ace the coding interviews.",
     "main": "solution.js",
     "scripts": {
-        "test": "vitest --run --reporter verbose"
+        "test": "vitest --reporter verbose"
     },
     "repository": {
         "type": "git",
