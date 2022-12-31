@@ -1,5 +1,5 @@
 import DataStructure from "./solution";
-import { it, describe, expect, isFirstRun } from "vitest";
+import { it, describe, expect } from "vitest";
 
 describe("test the data structure", () => {
     it("should add elements into array", () => {
