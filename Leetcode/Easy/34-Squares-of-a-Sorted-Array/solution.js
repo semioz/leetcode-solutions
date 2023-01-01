@@ -8,7 +8,8 @@ let sortedSquares = function(nums) {
             left++;
         } else {
             res.push(nums[right] * nums[right]);
+            right--;
         }
     }
     return res.reverse();
-}
+};
