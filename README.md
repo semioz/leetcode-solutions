@@ -1,7 +1,12 @@
 # Software
 
-Coding questions from various resources in order to ace the coding interviews.
+Software resources to enlighten my knowledge.
 
+
+#Design Patterns
+* Singleton
+
+#Coding Questions
 * JavaScript
 * Python
 * TypeScript(I'm adding TS solutions after a while to memorize the algorithms.)
