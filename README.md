@@ -3,10 +3,10 @@
 Software resources to enlighten my knowledge.
 
 
-#Design Patterns
+## Design Patterns
 * Singleton
 
-#Coding Questions
+## Coding Questions
 * JavaScript
 * Python
 * TypeScript(I'm adding TS solutions after a while to memorize the algorithms.)
