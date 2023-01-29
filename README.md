@@ -1,4 +1,4 @@
-# Coding Questions
+# Software
 
 Coding questions from various resources in order to ace the coding interviews.
 
