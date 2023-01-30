@@ -1,6 +1,6 @@
-# Software
+# Computer Science
 
-Software resources to enlighten my knowledge.
+CS repository to enlighten my knowledge.
 
 
 ## Design Patterns
