@@ -7,14 +7,14 @@ class ListNode(object):
 #[[1,4,5],[1,3,4],[2,6]]
 class Solution(object):
     def mergeKLists(self, lists):
-        if not lists or len(lists) == 0:
+        if not lists and len(lists) == 0:
             return None
-        while len(lists) > 1:
+        while(len(lists) > 1):
             mergedLists = []
             for i in range(0,len(lists),2):
                 l1 = lists[i]
                 l2 = lists[i+1] if (i+1) < len(lists) else None
-                mergedLists.append(self.mergeLists(l1,l2))
+                mergedLists.append(self,mergeLists(l1,l2))
             lists = mergedLists
         return lists[0]
 
@@ -34,4 +34,3 @@ class Solution(object):
         if l2:
             tail.next = l2
         return dummy.next
-
