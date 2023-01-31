@@ -1,6 +1,6 @@
 # Computer Science
 
-CS repository to enlighten my knowledge.
+A repository to share my answers to various algorithm questions etc.
 
 
 ## Design Patterns
