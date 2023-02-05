@@ -9,12 +9,13 @@
  *     }
  * }
  */
+
 function middleNode(head: ListNode | null): ListNode | null {
     let [slow,fast] = [head,head];
     while(fast && fast.next){
         slow = slow.next;
         fast = fast.next.next;
-    }
+    };
     return slow;
 };
 
@@ -33,6 +34,6 @@ function middleNode2(head: ListNode | null): ListNode | null{
         slow = slow.next;
         fast = fast.next.next;
     }
-    if(size() % 2 != 0)return slow;
+    if(size() % 2 != 0)return slow;
     return slow.next;
 };
