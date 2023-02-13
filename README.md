@@ -6,7 +6,7 @@ A repository to share my answers to various algorithm questions etc.
 ## Design Patterns
 * Singleton
 
-## Coding Questions
+## Algorithm Questions
 * SQL
 * JavaScript
 * Python
