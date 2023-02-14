@@ -1,4 +1,4 @@
-# Computer Science
+# Leetcode Solutions
 
 A repository to share my answers to various algorithm questions etc.
 
