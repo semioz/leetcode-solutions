@@ -7,6 +7,7 @@ const twoSum = (nums, target) => {
     }
 };
 
+
 //Brute Force
 const bruteSum = (nums, target) => {
     for (let i = 0; i < nums.length; i++) {
