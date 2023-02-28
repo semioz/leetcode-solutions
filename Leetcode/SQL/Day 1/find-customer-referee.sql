@@ -19,4 +19,4 @@ The query result format is in the following example.
 */
 SELECT name 
 FROM customer
-WHERE referee_id != 2 OR referee_id = NULL;
+WHERE referee_id != 2 OR referee_id IS NULL;

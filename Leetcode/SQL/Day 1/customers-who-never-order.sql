@@ -30,5 +30,5 @@ Return the result table in any order.
 The query result format is in the following example.
 */
 SELECT customers.name AS 'Customer'
-FROM Customers
+FROM customers
 WHERE customers.id NOT IN (SELECT customerId FROM Orders)
