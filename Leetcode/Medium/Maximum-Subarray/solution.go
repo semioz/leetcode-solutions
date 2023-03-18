@@ -1,7 +1,7 @@
 func maxSubArray(nums []int) int {
-	maxGlobal,maxCurr := nums[0],nums[0]
-	for i:=1;i<len(nums);i++ {
-		maxCurr = max(nums[i],num[i]+maxCurr)
+	maxGlobal, maxCurr := nums[0], nums[0]
+	for i := 1; i < len(nums); i++ {
+		maxCurr = max(nums[i], num[i]+maxCurr)
 		if maxCurr > maxGlobal {
 			maxGlobal = maxCurr
 		}
@@ -9,11 +9,9 @@ func maxSubArray(nums []int) int {
 	return maxGlobal
 }
 
-func max(a,b int) int {
+func max(a, b int) int {
 	if a > b {
 		return a
 	}
 	return b
 }
-
-[1,5,-7,11,31,12]
