@@ -1,4 +1,4 @@
-#Built-in Function by using alnum()
+#Built-in Function by using isalnum()
 class Solution(object):
     def isPalindrome(self, s):
         newStr = ""
