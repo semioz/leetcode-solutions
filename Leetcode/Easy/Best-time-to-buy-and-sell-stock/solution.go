@@ -4,7 +4,7 @@ func maxProfit(prices []int) int {
 	for right < len(prices) {
 		currProfit := prices[right] - prices[left]
 		if prices[right] < prices[left] {
-			maxProfit = max(maxProfit, currProfit)
+			maxProfit := max(currProfit, maxProfit)
 		} else {
 			left = right
 		}
