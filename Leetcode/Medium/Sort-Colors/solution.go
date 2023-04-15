@@ -17,3 +17,6 @@ func sortColors(nums []int) {
 	}
 	i++
 }
+
+func sortColor(nums []int) {
+}
