@@ -2,10 +2,6 @@
 
 A repository to share my answers to various algorithm questions etc.
 
-
-## Design Patterns
-* Singleton
-
 ## Algorithm Questions
 * SQL
 * JavaScript
