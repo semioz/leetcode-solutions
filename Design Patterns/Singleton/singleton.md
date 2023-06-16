@@ -1,3 +1,0 @@
-* The singleton pattern is a design pattern that ensures a class has only one instance, while providing a global access point to this instance. The singleton class controls the instantiation of itself, ensuring that no more than one instance of the class is created. This is useful in situations where a single instance of a class must coordinate actions across the system.
-
-* Just like a global variable, the Singleton Pattern lets you access some object from anywhere in the program. However, it also protects that instance from being over-written by other code.

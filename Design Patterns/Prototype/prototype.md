@@ -1,5 +1,0 @@
-* An object that supports cloning is called a prototype. When your objects have dozens of fields and hundreds of possible configurations, cloning them might serve as an alternative to subclassing.
-
-* The difference between the prototype pattern and creating a new instance through the constructor is that the prototype pattern provides a mechanism for creating a new instance by cloning an existing one, rather than creating a new instance from scratch each time.
-The advantage of using the prototype pattern is that it can be more efficient, as you can save time and resources by reusing an existing object as a starting point, rather than creating a new one from scratch each time. This can be particularly useful in cases where creating a new object is computationally expensive, as it allows you to reuse an existing object and make modifications as needed. Additionally, it can also be useful in cases where you need to maintain the identity of an object, as cloning an object rather than creating a new one preserves the identity of the original object.
-
