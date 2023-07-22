@@ -4,7 +4,7 @@ class Solution(object):
         q = deque()
         if root:
             q.append(root)
-
+            
         while q:
             val = []
             for i in range(len(q)):
