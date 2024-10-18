@@ -14,7 +14,7 @@ func maxProfit(prices []int) int {
 }
 
 func max(a, b int) int {
-  if a > b {
-    return a
-  }
+	if a > b {
+		return a
+	}
 }
