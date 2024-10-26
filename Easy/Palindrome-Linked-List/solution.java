@@ -14,7 +14,7 @@ class Solution {
         while (f != null && f.next != null) {
             s = s.next;
             f = f.next.next;
-        };
+        }
 
         ListNode prev = null;
         while (s != null) {
@@ -26,8 +26,8 @@ class Solution {
 
         ListNode f_half = head, s_half = prev;
         while (s_half != null) {
-            if (s_half.val != f_half.val) {
-                return False;
+            if (f_half.val != s_half) {
+                return false;
             }
             f_half = f_half.next;
             s_half = s_half.next;
