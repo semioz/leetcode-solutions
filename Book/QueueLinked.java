@@ -9,7 +9,7 @@
          Node next; 
       }
 
-     public boolean isEmpty() {  return first == null;  }  // Or: N == 0.
+     public boolean isEmpty() {  return N == 0;  }
      public int size()        {  return N;  }
 
      public void enqueue(Item item)
@@ -21,7 +21,7 @@
         if (isEmpty()) first = last;
         else           oldlast.next = last;
         N++;
-}
+     }
 
      public Item dequeue()
      {  // Remove item from the beginning of the list.
@@ -30,5 +30,5 @@
         if (isEmpty()) last = null;
         N--;
         return item;
-}
+     }
 }

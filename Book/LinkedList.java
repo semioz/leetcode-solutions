@@ -1,6 +1,7 @@
 public class LinkedList<T> {
     private Node<T> head;
-    public void add(T data) {
+    
+    public void add(T data) {   
         if (head == null) {
             head = new Node<>(data);
         } else {

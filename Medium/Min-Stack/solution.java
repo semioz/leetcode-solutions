@@ -1,12 +1,43 @@
-import java.util.Stack;
+class MyStack<T> {
+    private int L;
+    private Node head;
+
+    private class Node {
+        T data;
+        Node next;
+    };
+
+    public void push(T data)  {
+        Node temp = head;
+        head = new Node();
+        head.data = data;
+        head.next = temp;
+        L++;
+    };
+    
+    public T pop() {
+        T prevData = head.data;
+        head = head.next;
+        L--;
+        return prevData;
+    };
+
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+    public T peek() {
+        return head.data;
+    }
+}
 
 class MinStack {
-    private Stack<Integer> mainStack;
-    private Stack<Integer> minStack;
+    private MyStack<Integer> mainStack;
+    private MyStack<Integer> minStack;
 
     public MinStack() {
-        mainStack = new Stack<>();
-        minStack = new Stack<>();     
+        mainStack = new MyStack<>();
+        minStack = new MyStack<>();     
     }
     
     public void push(int val) {
